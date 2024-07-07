@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-template-project/static/css/main.bb12f855.css",
-    "main.js": "/react-template-project/static/js/main.0c9c29a2.js",
-    "index.html": "/react-template-project/index.html",
-    "main.bb12f855.css.map": "/react-template-project/static/css/main.bb12f855.css.map",
-    "main.0c9c29a2.js.map": "/react-template-project/static/js/main.0c9c29a2.js.map"
+    "main.css": "/redux-practice/static/css/main.bb12f855.css",
+    "main.js": "/redux-practice/static/js/main.0c9c29a2.js",
+    "index.html": "/redux-practice/index.html",
+    "main.bb12f855.css.map": "/redux-practice/static/css/main.bb12f855.css.map",
+    "main.0c9c29a2.js.map": "/redux-practice/static/js/main.0c9c29a2.js.map"
   },
   "entrypoints": [
     "static/css/main.bb12f855.css",
