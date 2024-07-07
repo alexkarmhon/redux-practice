@@ -1,0 +1,23 @@
+.title {
+  text-align: center;
+}
+
+.newsList {
+  width: 90%;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.newsListItem {
+  padding: 4px;
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+.newsListItem:hover {
+  outline: 1px solid #3f6f858a;
+}
+
+.link{
+  color: #202020;
+}

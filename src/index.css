@@ -38,3 +38,14 @@ img {
   display: block;
   max-width: 100%;
 }
+
+a.active {
+  color: aliceblue;
+  background-color: #b8b8b8;
+  border: 1px solid #ff9147;
+}
+
+.pageTitle,
+.subTitle {
+  text-align: center;
+}

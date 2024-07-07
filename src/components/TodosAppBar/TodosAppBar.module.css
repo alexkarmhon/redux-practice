@@ -1,0 +1,15 @@
+.todosAppBarWrapper{
+  display: flex;
+  justify-content: space-between;
+  padding:0 8px;
+}
+
+.section {
+  display: grid;
+  gap: 4px;
+}
+
+.title {
+  margin: 0;
+  font-size: 16px;
+}

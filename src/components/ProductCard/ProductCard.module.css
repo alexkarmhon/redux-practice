@@ -1,0 +1,75 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+  cursor: default;
+}
+
+.cardImgTop {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 16px;
+}
+
+.cardTitle {
+  margin: 0 0 8px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.cardPriceText {
+  margin: 0 0 16px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.descriptionText {
+  margin: 0 0 16px;
+  flex: 1;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cardBtn {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  font: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #d9e9f8cc;
+  color: inherit;
+  cursor: pointer;
+
+  transition: background-color 300ms;
+  align-self: flex-end;
+}
+
+.cardBtn:hover {
+  background-color: #1976d2a8;
+  color: #fff;
+}

@@ -1,0 +1,27 @@
+.stepForm{
+  display: flex;
+  width: max-content;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  border: 1px solid teal;
+  border-radius: 4px;
+}
+
+.stepField{
+  width: 80px;
+  height: 32px;
+  font-size: 24px;
+  color: teal;
+  outline-color: teal;
+}
+
+.stepField::placeholder{
+  line-height: 1;
+  font-size: 16px;
+}
+
+.stepBtn{
+margin-left: 8px;
+}

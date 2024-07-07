@@ -1,0 +1,12 @@
+.searchForm {
+  display: flex;
+  padding: 8px;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.searchField{
+  flex-grow: 2;
+  margin-right: 8px;
+  outline-color:#d9e9f8cc;
+}
