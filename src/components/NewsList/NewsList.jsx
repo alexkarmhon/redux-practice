@@ -15,7 +15,7 @@ export const NewsList = () => {
 
   useEffect(() => {
     dispatch(fetchNews());
-  }, []);
+  }, [dispatch]);
 
   return (
     <>

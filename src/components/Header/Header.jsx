@@ -8,7 +8,7 @@ export const Header = ({ showModal }) => {
     <header>
       <div className={css.headerContainer}>
         <Link to={'/'} aria-current="page" className={css.brandLink}>
-          <span className="brand">MyAppHeader</span>
+          <span className="brand">ReduxPractice</span>
         </Link>
         <nav className="nav">
           <NavLink to={'/'} aria-current="page" className={css.navLink}>

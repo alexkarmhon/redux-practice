@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 
-import { selectTodos } from 'reduxx/selectors';
+// import { selectTodos } from 'reduxx/selectors';
 import { selectTodosCount } from 'reduxx/selectors';
 
 import css from './TodoCounter.module.css';
